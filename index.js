@@ -16,6 +16,7 @@ function clearGrid(){
        canvas.removeChild(canvas.firstChild);
   }
 }
+
 function makeGrid(){
 for(let i=0;i<height;i++){
   myRow=document.createElement('div');
@@ -29,6 +30,7 @@ for(let i=0;i<height;i++){
   canvas.appendChild(myRow)
 }
 }
+
 function fillSquare () {
   this.setAttribute("style", `background-color: ${color.value}`);
 }
